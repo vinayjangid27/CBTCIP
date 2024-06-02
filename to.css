@@ -1,0 +1,99 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #9a88e7; /* Soft background color */
+}
+
+.container {
+    background: #d3c4c4; /* White background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(229, 152, 152, 0.1); /* Subtle box shadow */
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333333; /* Dark text color */
+    font-size: 24px; /* Larger font size */
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 12px; /* Increased padding */
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #f9f9f9; /* Light gray background */
+}
+
+button#add-task-button {
+    padding: 12px 24px; /* Increased padding */
+    border: none;
+    background-color: #007bff; /* Blue button color */
+    color: #ffffff; /* White text color */
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+button#add-task-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #ffffff; /* White background */
+    padding: 20px; /* Increased padding */
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dddddd; /* Light border color */
+}
+
+li span {
+    flex-grow: 1;
+    padding-right: 20px; /* Increased padding */
+    color: #333333; /* Dark text color */
+    font-size: 16px;
+}
+
+li button {
+    background-color: #dc3545; /* Red button color */
+    border: none;
+    padding: 8px 16px;
+    color: #ffffff; /* White text color */
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+li button.edit {
+    background-color: #28a745; /* Green button color */
+}
+
+li button:hover {
+    opacity: 0.8;
+}

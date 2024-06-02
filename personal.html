@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Vinay Jangid</title>
+    <link rel="stylesheet" href="personal.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu-btn" id="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="section">
+        <div class="intro">
+            <img src="an1.jpg" alt="Vinay Jangid" class="profile-pic">
+            <h1>Hi, I'm Vinay Jangid</h1>
+            <p>Full Stack Developer</p>
+            <a href="#contact" class="btn">Hire Me</a>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <img src="an2.jpg" alt="Vinay Jangid" class="about-pic">
+        <p>Full Stack Developer with a passion for creating beautiful and functional websites...</p>
+    </section>
+    <section id="skills" class="section">
+        <h2>My Skills</h2>
+        <div class="skillscontainer">
+            <div class="skill">
+                <p>HTML</p>
+                <div class="skillbar"><div class="skilllevel" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill">
+                <p>CSS</p>
+                <div class="skillbar"><div class="skilllevel" style="width: 85%;"></div></div>
+            </div>
+            <div class="skill">
+                <p>PHP</p>
+                <div class="skillbar"><div class="skilllevel" style="width: 75%;"></div></div>
+            </div>
+            <div class="skill">
+                <p>JavaScript</p>
+                <div class="skillbar"><div class="skilllevel" style="width: 80%;"></div></div>
+            </div>
+        </div>
+    </section>
+    <section id="experience" class="section">
+        <h2>My Journey</h2>
+        <div class="experiencecontainer">
+            <div class="experience">
+                <h3>Education</h3>
+                <p>B.Tech in Computer Science and Engineering - Amity University Rajasthan</p>
+            </div>
+            <div class="experience">
+                <h3>Experience</h3>
+                <p>Web Development Intern at CipherByte Technologies.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your Email">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <script src="personal.js"></script>
+</body>
+</html>
